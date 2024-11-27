@@ -547,7 +547,7 @@
 .text_4043 {
   transform: scaleY(24.5) scaleX(9);
 }
-button {
+.btn-error {
   background-color: #6B6660;
   color: black;
   border-radius: 10em;
@@ -559,8 +559,7 @@ button {
   border: 1px solid black;
   box-shadow: 0 0 0 0 black;
 }
-
-button:hover {
+.btn-error:hover {
   transform: translateY(-4px) translateX(-2px);
   animation:ease-in-out 1s;
   box-shadow: 2px 5px 0 0 black;
@@ -568,7 +567,7 @@ button:hover {
   color: white;
 };
 
-button:active {
+.btn-error:active {
   transform: translateY(2px) translateX(1px);
   box-shadow: 0 0 0 0 black;
 };
